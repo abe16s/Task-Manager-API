@@ -6,6 +6,8 @@ A task management service built with Go and MongoDB, providing functionality for
 
 Before running the application, ensure you have a MongoDB instance running. Update the database connection string in main.go where it is set with clientOptions := options.Client().ApplyURI("").
 
+[Postman documetation](https://documenter.getpostman.com/view/32032637/2sA3s3GAhh)
+
 ## GET - GetAllTasks
 
 localhost:8080/tasks
